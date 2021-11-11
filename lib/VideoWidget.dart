@@ -8,7 +8,8 @@ class VideoWidget extends StatefulWidget {
   final String videoUrl;
 
   @override
-  _VideoWidgetState createState() => _VideoWidgetState(this.videoUrl);
+  // ignore: no_logic_in_create_state
+  _VideoWidgetState createState() => _VideoWidgetState(videoUrl);
 }
 
 class _VideoWidgetState extends State<VideoWidget> {
